@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-65fa29031c.fgfyd.cn/sitemap.xml

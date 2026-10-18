@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "0226ae468058b1871c6f6283",
+  "owner": "s5fc3x",
+  "repo": "page-7dcb2cb5403f3a9563f630b8",
+  "title": "KUS",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "7dcb2cb5403f3a9563f630b8",
+      "a": "KUS",
+      "b": "",
+      "entity": "KUS",
+      "brand": "KUS",
+      "separator": "",
+      "path": "index.html",
+      "hash": "af9a3fffe0975cbc593d1d11f6588e20937cb1bca37e404b271a1a897797ad8f",
+      "content": {
+        "keyword1": "KUS",
+        "keyword2": "",
+        "primary_entity": "KUS",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "KUS 提供冷静克制的网络协议管理与传输优化方案，以严谨的数据结构和高效的节点调度，确保多端连接的持续稳定。",
+          "AI_DESCRIPTION": "KUS 提供冷静克制的网络协议管理与传输优化方案，以严谨的数据结构和高效的节点调度，确保多端连接的持续稳定。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg-color: #f4f6f8;--surface: #ffffff;--text-main: #2f3e46;--text-muted: #6c7a89;--accent: #0081a7;--accent-light: #e0f2fe;--border-color: #d8dee9}\n* {box-sizing: border-box;margin: 0;padding: 0}\nbody {font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;background-color: var(--bg-color);color: var(--text-main);line-height: 1.7;padding: 0}\nheader {background-color: var(--surface);border-bottom: 1px solid var(--border-color);position: sticky;top: 0;z-index: 100}\n.nav-container {max-width: 1200px;margin: 0 auto;padding: 0.75rem 2rem;display: flex;justify-content: space-between;align-items: center}\n.nav-brand {font-weight: 700;letter-spacing: 0.1em;color: var(--text-main);text-decoration: none}\n.nav-links {display: flex;gap: 2rem;list-style: none}\n.nav-links a {text-decoration: none;color: var(--text-muted);font-size: 0.9rem;transition: color 0.2s}\n.nav-links a:hover {color: var(--accent)}\nmain {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem}\n.hero {display: grid;grid-template-columns: 350px 1fr;gap: 6rem;align-items: start;margin-bottom: 6rem}\n.hero-left {position: sticky;top: 6rem}\n.hero-left h1 {font-size: 2.5rem;font-weight: 300;letter-spacing: -0.02em;margin-bottom: 1rem;color: var(--text-main)}\n.hero-left p {color: var(--text-muted);font-size: 0.95rem;margin-bottom: 2rem}\n.hero-right {background-color: var(--surface);padding: 3rem;border-left: 2px solid var(--accent)}\n.hero-right h2 {font-size: 1.25rem;font-weight: 500;margin-bottom: 1rem;color: var(--text-main)}\n.hero-right p {color: var(--text-muted);margin-bottom: 1.5rem;font-size: 0.95rem}\n.section {margin-bottom: 6rem}\n.section-title {font-size: 1.5rem;font-weight: 400;margin-bottom: 2rem;letter-spacing: -0.01em;border-bottom: 1px solid var(--border-color);padding-bottom: 0.5rem}\n.plans-list {display: flex;flex-direction: column;gap: 1.5rem}\n.plan-item {background-color: var(--surface);padding: 2.5rem;display: grid;grid-template-columns: 200px 1fr auto;gap: 2rem;align-items: center}\n.plan-item.featured {background-color: var(--accent-light)}\n.plan-name h3 {font-size: 1.25rem;font-weight: 500;margin-bottom: 0.25rem}\n.plan-name span {font-size: 0.85rem;color: var(--text-muted)}\n.plan-features ul {list-style: none;display: grid;grid-template-columns: repeat(2, 1fr);gap: 0.5rem 1.5rem}\n.plan-features li {font-size: 0.9rem;color: var(--text-muted)}\n.plan-pricing {text-align: right}\n.plan-pricing .price {font-size: 1.5rem;font-weight: 600;color: var(--text-main);display: block}\n.plan-pricing .annual {font-size: 0.8rem;color: var(--text-muted)}\n.steps-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 3rem}\n.step-card {background-color: var(--surface);padding: 2.5rem}\n.step-number {font-size: 2rem;font-weight: 200;color: var(--accent);margin-bottom: 1rem}\n.step-card h3 {font-size: 1.1rem;font-weight: 500;margin-bottom: 0.75rem}\n.step-card p {font-size: 0.9rem;color: var(--text-muted)}\n.faq-list {display: flex;flex-direction: column;gap: 1.5rem}\n.faq-item {background-color: var(--surface);padding: 2rem;display: grid;grid-template-columns: 3rem 1fr;gap: 1rem}\n.faq-index {font-size: 1.1rem;font-weight: 500;color: var(--accent)}\n.faq-content h3 {font-size: 1.05rem;font-weight: 500;margin-bottom: 0.5rem}\n.faq-content p {font-size: 0.9rem;color: var(--text-muted)}\nfooter {background-color: var(--surface);border-top: 1px solid var(--border-color);padding: 3rem 0;text-align: center;color: var(--text-muted);font-size: 0.85rem}\n@media (max-width: 900px) {\n  .hero {grid-template-columns: 1fr;gap: 2rem}\n  .hero-left {position: static}\n  .plan-item {grid-template-columns: 1fr;gap: 1.5rem}\n  .plan-pricing {text-align: left}\n  .plan-features ul {grid-template-columns: 1fr}\n  .steps-grid {grid-template-columns: 1fr}\n}\n</style><header>\n  <div class=\"nav-container\">\n    <a href=\"#\" class=\"nav-brand\">KUS</a>\n    <ul class=\"nav-links\">\n      <li><a href=\"#overview\">系统概览</a></li>\n      <li><a href=\"#plans\">服务层级</a></li>\n      <li><a href=\"#guide\">接入指南</a></li>\n      <li><a href=\"#faq\">常见问题</a></li>\n    </ul>\n  </div>\n</header>\n\n<main>\n  <section class=\"hero\" id=\"overview\">\n    <div class=\"hero-left\">\n      <h1>KUS</h1>\n      <p>网络连接与传输协议管理系统。面向复杂网络环境提供高可用、结构化的底层路由优化方案。</p>\n    </div>\n    <div class=\"hero-right\">\n      <h2>系统设计哲学</h2>\n      <p>KUS 采用模块化架构设计，剥离冗余的中间链路。通过精确的流量分发和协议封装，保障数据在多端传输过程中的完整性与低延迟表现。</p>\n      <p>系统内置多重冗余机制，在面对网络波动时可自动切换最优传输路径，维持持久稳定的连接状态。</p>\n    </div>\n  </section>\n\n  <section class=\"section\" id=\"plans\">\n    <h2 class=\"section-title\">服务层级</h2>\n    <div class=\"plans-list\">\n      <div class=\"plan-item\">\n        <div class=\"plan-name\">\n          <h3>基础版</h3>\n          <span>Standard Tier</span>\n        </div>\n        <div class=\"plan-features\">\n          <ul>\n            <li>每月 100GB 极速流量</li>\n            <li>支持 3 台设备同时在线</li>\n            <li>解锁基础流媒体</li>\n            <li>普通线路节点池</li>\n          </ul>\n        </div>\n        <div class=\"plan-pricing\">\n          <span class=\"price\">¥15/月</span>\n          <span class=\"annual\">按年付仅需 ¥150/年</span>\n        </div>\n      </div>\n\n      <div class=\"plan-item featured\">\n        <div class=\"plan-name\">\n          <h3>旗舰版</h3>\n          <span>Flagship Tier</span>\n        </div>\n        <div class=\"plan-features\">\n          <ul>\n            <li>每月 300GB 极速流量</li>\n            <li>支持 5 台设备同时在线</li>\n            <li>全节点原生流媒体解锁</li>\n            <li>IPLC 专线游戏加速优化</li>\n            <li>7x24 优先工单支持</li>\n          </ul>\n        </div>\n        <div class=\"plan-pricing\">\n          <span class=\"price\">¥35/月</span>\n          <span class=\"annual\">按年付仅需 ¥350/年</span>\n        </div>\n      </div>\n\n      <div class=\"plan-item\">\n        <div class=\"plan-name\">\n          <h3>团队版</h3>\n          <span>Enterprise Tier</span>\n        </div>\n        <div class=\"plan-features\">\n          <ul>\n            <li>每月 1000GB 极速流量</li>\n            <li>支持 20 台设备同时在线</li>\n            <li>VIP 专属高带宽节点</li>\n            <li>支持企业定制路由</li>\n            <li>专属客户经理服务</li>\n          </ul>\n        </div>\n        <div class=\"plan-pricing\">\n          <span class=\"price\">¥85/月</span>\n          <span class=\"annual\">按年付仅需 ¥850/年</span>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"section\" id=\"guide\">\n    <h2 class=\"section-title\">接入指南</h2>\n    <div class=\"steps-grid\">\n      <div class=\"step-card\">\n        <div class=\"step-number\">01</div>\n        <h3>账户初始化</h3>\n        <p>注册并登录 KUS 控制台，根据实际吞吐需求选择对应的服务层级完成配置。</p>\n      </div>\n      <div class=\"step-card\">\n        <div class=\"step-number\">02</div>\n        <h3>获取订阅凭证</h3>\n        <p>在控制台概览页面生成专属的加密订阅链接，或直接导出兼容主流客户端的配置文件。</p>\n      </div>\n      <div class=\"step-card\">\n        <div class=\"step-number\">03</div>\n        <h3>导入与连接</h3>\n        <p>将凭证导入至对应操作系统的受支持客户端中，完成节点同步后即可启用智能路由。</p>\n      </div>\n    </div>\n  </section>\n\n  <section class=\"section\" id=\"faq\">\n    <h2 class=\"section-title\">常见问题</h2>\n    <div class=\"faq-list\">\n      <div class=\"faq-item\">\n        <div class=\"faq-index\">01</div>\n        <div class=\"faq-content\">\n          <h3>如何选择适合的节点线路？</h3>\n          <p>系统默认启用智能路由分发，将根据您的目标网络环境自动匹配最优节点。若有特定需求，可在客户端中手动指定 IPLC 专线或常规节点池。</p>\n        </div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-index\">02</div>\n        <div class=\"faq-content\">\n          <h3>流量额度如何计算与重置？</h3>\n          <p>所有服务层级的流量均按自然月周期进行重置，双向流量（上传与下载）均计入总额度。未使用的流量不结转至下一周期。</p>\n        </div>\n      </div>\n      <div class=\"faq-item\">\n        <div class=\"faq-index\">03</div>\n        <div class=\"faq-content\">\n          <h3>多端同时在线设备数如何限制？</h3>\n          <p>系统通过订阅凭证对在线 IP 数量进行实时校验。超出额度的设备连接请求将会被暂时拒绝，建议及时断开闲置设备的连接状态。</p>\n        </div>\n      </div>\n    </div>\n  </section>\n</main>\n\n<footer>\n  <p>© KUS Systems. All rights reserved.</p>\n</footer>",
+          "hash": "e4fb761e2c6dd68b7af61a59cf93092602a1a11f521b4ba7049791647352797e",
+          "seo": {
+            "title": "KUS - 网络连接与传输协议管理系统",
+            "keywords": "KUS, 网络协议, 传输管理, 路由优化, 数据传输",
+            "description": "KUS 提供冷静克制的网络协议管理与传输优化方案，以严谨的数据结构和高效的节点调度，确保多端连接的持续稳定。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "606",
+            "hero": "7 窄栏居左配大面积留白",
+            "palette": "7 石板灰配青色",
+            "nav": "1 顶部细横条",
+            "card": "1 无边框仅靠留白分隔",
+            "plans_view": "2 纵向列表逐行展开",
+            "faq_view": "2 编号列表",
+            "tone": "1 冷静克制的说明书口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "fgfyd.cn",
+    "host": "p-65fa29031c.fgfyd.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "9282384e28e4c64846735d1fa7293737e64079b308054de52eeca3b5bfe3a13b",
+    "sitemap.xml": "044ebcbe689f043f7d5c127ef1be53bf0c74dd0aab494f252d21412203115dec",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "575a023c98997a9feb83bbabb414c66835583e17f92420a69a2315071fe83d60",
+    "robots.txt": "c8c02dfee732f64eae450baf52d83be6c15c022495769c1a3516ff3fe911d049",
+    "f54cb797942e431f62a2512acff86f85.txt": "025e7d90cf2dea1c79e67fc823795a33eb8259646b680692fd7c27dca2bea4ca"
+  },
+  "revision": "1556e2c280894d4b96ea34d4e25869b2495de43a7c16c81be594146856cd688e"
+}

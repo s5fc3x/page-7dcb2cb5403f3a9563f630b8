@@ -1,0 +1,190 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>KUS - 网络连接与传输协议管理系统</title><meta name="description" content="KUS 提供冷静克制的网络协议管理与传输优化方案，以严谨的数据结构和高效的节点调度，确保多端连接的持续稳定。"><meta name="keywords" content="KUS, 网络协议, 传输管理, 路由优化, 数据传输"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-65fa29031c.fgfyd.cn/"><meta property="og:type" content="website"><meta property="og:title" content="KUS - 网络连接与传输协议管理系统"><meta property="og:description" content="KUS 提供冷静克制的网络协议管理与传输优化方案，以严谨的数据结构和高效的节点调度，确保多端连接的持续稳定。"><meta property="og:url" content="https://p-65fa29031c.fgfyd.cn/"><meta property="og:site_name" content="KUS"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-65fa29031c.fgfyd.cn/", "name": "KUS - 网络连接与传输协议管理系统", "description": "KUS 提供冷静克制的网络协议管理与传输优化方案，以严谨的数据结构和高效的节点调度，确保多端连接的持续稳定。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="7dcb2cb5403f3a9563f630b8:af9a3fffe0975cbc593d1d11f6588e20937cb1bca37e404b271a1a897797ad8f:24177bac4eafbbcefdb0"></head><body id="top"><style>
+:root {--bg-color: #f4f6f8;--surface: #ffffff;--text-main: #2f3e46;--text-muted: #6c7a89;--accent: #0081a7;--accent-light: #e0f2fe;--border-color: #d8dee9}
+* {box-sizing: border-box;margin: 0;padding: 0}
+body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;background-color: var(--bg-color);color: var(--text-main);line-height: 1.7;padding: 0}
+header {background-color: var(--surface);border-bottom: 1px solid var(--border-color);position: sticky;top: 0;z-index: 100}
+.nav-container {max-width: 1200px;margin: 0 auto;padding: 0.75rem 2rem;display: flex;justify-content: space-between;align-items: center}
+.nav-brand {font-weight: 700;letter-spacing: 0.1em;color: var(--text-main);text-decoration: none}
+.nav-links {display: flex;gap: 2rem;list-style: none}
+.nav-links a {text-decoration: none;color: var(--text-muted);font-size: 0.9rem;transition: color 0.2s}
+.nav-links a:hover {color: var(--accent)}
+main {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem}
+.hero {display: grid;grid-template-columns: 350px 1fr;gap: 6rem;align-items: start;margin-bottom: 6rem}
+.hero-left {position: sticky;top: 6rem}
+.hero-left h1 {font-size: 2.5rem;font-weight: 300;letter-spacing: -0.02em;margin-bottom: 1rem;color: var(--text-main)}
+.hero-left p {color: var(--text-muted);font-size: 0.95rem;margin-bottom: 2rem}
+.hero-right {background-color: var(--surface);padding: 3rem;border-left: 2px solid var(--accent)}
+.hero-right h2 {font-size: 1.25rem;font-weight: 500;margin-bottom: 1rem;color: var(--text-main)}
+.hero-right p {color: var(--text-muted);margin-bottom: 1.5rem;font-size: 0.95rem}
+.section {margin-bottom: 6rem}
+.section-title {font-size: 1.5rem;font-weight: 400;margin-bottom: 2rem;letter-spacing: -0.01em;border-bottom: 1px solid var(--border-color);padding-bottom: 0.5rem}
+.plans-list {display: flex;flex-direction: column;gap: 1.5rem}
+.plan-item {background-color: var(--surface);padding: 2.5rem;display: grid;grid-template-columns: 200px 1fr auto;gap: 2rem;align-items: center}
+.plan-item.featured {background-color: var(--accent-light)}
+.plan-name h3 {font-size: 1.25rem;font-weight: 500;margin-bottom: 0.25rem}
+.plan-name span {font-size: 0.85rem;color: var(--text-muted)}
+.plan-features ul {list-style: none;display: grid;grid-template-columns: repeat(2, 1fr);gap: 0.5rem 1.5rem}
+.plan-features li {font-size: 0.9rem;color: var(--text-muted)}
+.plan-pricing {text-align: right}
+.plan-pricing .price {font-size: 1.5rem;font-weight: 600;color: var(--text-main);display: block}
+.plan-pricing .annual {font-size: 0.8rem;color: var(--text-muted)}
+.steps-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 3rem}
+.step-card {background-color: var(--surface);padding: 2.5rem}
+.step-number {font-size: 2rem;font-weight: 200;color: var(--accent);margin-bottom: 1rem}
+.step-card h3 {font-size: 1.1rem;font-weight: 500;margin-bottom: 0.75rem}
+.step-card p {font-size: 0.9rem;color: var(--text-muted)}
+.faq-list {display: flex;flex-direction: column;gap: 1.5rem}
+.faq-item {background-color: var(--surface);padding: 2rem;display: grid;grid-template-columns: 3rem 1fr;gap: 1rem}
+.faq-index {font-size: 1.1rem;font-weight: 500;color: var(--accent)}
+.faq-content h3 {font-size: 1.05rem;font-weight: 500;margin-bottom: 0.5rem}
+.faq-content p {font-size: 0.9rem;color: var(--text-muted)}
+footer {background-color: var(--surface);border-top: 1px solid var(--border-color);padding: 3rem 0;text-align: center;color: var(--text-muted);font-size: 0.85rem}
+@media (max-width: 900px) {
+  .hero {grid-template-columns: 1fr;gap: 2rem}
+  .hero-left {position: static}
+  .plan-item {grid-template-columns: 1fr;gap: 1.5rem}
+  .plan-pricing {text-align: left}
+  .plan-features ul {grid-template-columns: 1fr}
+  .steps-grid {grid-template-columns: 1fr}
+}
+</style><header>
+  <div class="nav-container">
+    <a href="#" class="nav-brand">KUS</a>
+    <ul class="nav-links">
+      <li><a href="#overview">系统概览</a></li>
+      <li><a href="#plans">服务层级</a></li>
+      <li><a href="#guide">接入指南</a></li>
+      <li><a href="#faq">常见问题</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="overview">
+    <div class="hero-left">
+      <h1>KUS</h1>
+      <p>网络连接与传输协议管理系统。面向复杂网络环境提供高可用、结构化的底层路由优化方案。</p>
+    </div>
+    <div class="hero-right">
+      <h2>系统设计哲学</h2>
+      <p>KUS 采用模块化架构设计，剥离冗余的中间链路。通过精确的流量分发和协议封装，保障数据在多端传输过程中的完整性与低延迟表现。</p>
+      <p>系统内置多重冗余机制，在面对网络波动时可自动切换最优传输路径，维持持久稳定的连接状态。</p>
+    </div>
+  </section>
+
+  <section class="section" id="plans">
+    <h2 class="section-title">服务层级</h2>
+    <div class="plans-list">
+      <div class="plan-item">
+        <div class="plan-name">
+          <h3>基础版</h3>
+          <span>Standard Tier</span>
+        </div>
+        <div class="plan-features">
+          <ul>
+            <li>每月 100GB 极速流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>普通线路节点池</li>
+          </ul>
+        </div>
+        <div class="plan-pricing">
+          <span class="price">¥15/月</span>
+          <span class="annual">按年付仅需 ¥150/年</span>
+        </div>
+      </div>
+
+      <div class="plan-item featured">
+        <div class="plan-name">
+          <h3>旗舰版</h3>
+          <span>Flagship Tier</span>
+        </div>
+        <div class="plan-features">
+          <ul>
+            <li>每月 300GB 极速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7x24 优先工单支持</li>
+          </ul>
+        </div>
+        <div class="plan-pricing">
+          <span class="price">¥35/月</span>
+          <span class="annual">按年付仅需 ¥350/年</span>
+        </div>
+      </div>
+
+      <div class="plan-item">
+        <div class="plan-name">
+          <h3>团队版</h3>
+          <span>Enterprise Tier</span>
+        </div>
+        <div class="plan-features">
+          <ul>
+            <li>每月 1000GB 极速流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+        </div>
+        <div class="plan-pricing">
+          <span class="price">¥85/月</span>
+          <span class="annual">按年付仅需 ¥850/年</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="guide">
+    <h2 class="section-title">接入指南</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">01</div>
+        <h3>账户初始化</h3>
+        <p>注册并登录 KUS 控制台，根据实际吞吐需求选择对应的服务层级完成配置。</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">02</div>
+        <h3>获取订阅凭证</h3>
+        <p>在控制台概览页面生成专属的加密订阅链接，或直接导出兼容主流客户端的配置文件。</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">03</div>
+        <h3>导入与连接</h3>
+        <p>将凭证导入至对应操作系统的受支持客户端中，完成节点同步后即可启用智能路由。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <h2 class="section-title">常见问题</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-index">01</div>
+        <div class="faq-content">
+          <h3>如何选择适合的节点线路？</h3>
+          <p>系统默认启用智能路由分发，将根据您的目标网络环境自动匹配最优节点。若有特定需求，可在客户端中手动指定 IPLC 专线或常规节点池。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-index">02</div>
+        <div class="faq-content">
+          <h3>流量额度如何计算与重置？</h3>
+          <p>所有服务层级的流量均按自然月周期进行重置，双向流量（上传与下载）均计入总额度。未使用的流量不结转至下一周期。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-index">03</div>
+        <div class="faq-content">
+          <h3>多端同时在线设备数如何限制？</h3>
+          <p>系统通过订阅凭证对在线 IP 数量进行实时校验。超出额度的设备连接请求将会被暂时拒绝，建议及时断开闲置设备的连接状态。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© KUS Systems. All rights reserved.</p>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
